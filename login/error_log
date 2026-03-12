@@ -1,0 +1,50 @@
+[13-Nov-2024 17:51:32 UTC] PHP Warning:  Undefined variable $pdo in /home/pkholdin/public_html/login/login_handler.php on line 10
+[13-Nov-2024 17:51:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/pkholdin/public_html/login/login_handler.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/pkholdin/public_html/login/login_handler.php on line 10
+[16-Nov-2024 13:55:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pkholdin/public_html/login/register_handler.php:20
+Stack trace:
+#0 /home/pkholdin/public_html/login/register_handler.php(20): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'pk_auto_parts')
+#1 {main}
+  thrown in /home/pkholdin/public_html/login/register_handler.php on line 20
+[16-Nov-2024 13:57:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pkholdin/public_html/login/register_handler.php:20
+Stack trace:
+#0 /home/pkholdin/public_html/login/register_handler.php(20): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'pk_auto_parts')
+#1 {main}
+  thrown in /home/pkholdin/public_html/login/register_handler.php on line 20
+[16-Nov-2024 15:24:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pkholdin/public_html/login/register_handler.php:20
+Stack trace:
+#0 /home/pkholdin/public_html/login/register_handler.php(20): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'pk_auto_parts')
+#1 {main}
+  thrown in /home/pkholdin/public_html/login/register_handler.php on line 20
+[16-Nov-2024 15:28:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pkholdin/public_html/login/register_handler.php:20
+Stack trace:
+#0 /home/pkholdin/public_html/login/register_handler.php(20): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'pkholdin_produc...')
+#1 {main}
+  thrown in /home/pkholdin/public_html/login/register_handler.php on line 20
+[16-Nov-2024 15:49:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pkholdin/public_html/login/register_handler.php:20
+Stack trace:
+#0 /home/pkholdin/public_html/login/register_handler.php(20): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'pkholdin_produc...')
+#1 {main}
+  thrown in /home/pkholdin/public_html/login/register_handler.php on line 20
+[16-Nov-2024 17:18:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home/pkholdin/public_html/login/register_handler.php:39
+Stack trace:
+#0 /home/pkholdin/public_html/login/register_handler.php(39): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/pkholdin/public_html/login/register_handler.php on line 39
+[18-Nov-2024 06:43:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'kasunanjana776@gmail.com' for key 'email' in /home/pkholdin/public_html/login/register_handler.php:31
+Stack trace:
+#0 /home/pkholdin/public_html/login/register_handler.php(31): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/pkholdin/public_html/login/register_handler.php on line 31
+[23-Nov-2024 08:59:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'varshaan' for key 'username' in /home/pkholdin/public_html/login/register_handler.php:31
+Stack trace:
+#0 /home/pkholdin/public_html/login/register_handler.php(31): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/pkholdin/public_html/login/register_handler.php on line 31
+[23-Nov-2024 08:59:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'varshaan' for key 'username' in /home/pkholdin/public_html/login/register_handler.php:31
+Stack trace:
+#0 /home/pkholdin/public_html/login/register_handler.php(31): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/pkholdin/public_html/login/register_handler.php on line 31
